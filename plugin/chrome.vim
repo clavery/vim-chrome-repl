@@ -32,3 +32,4 @@ function! ChromeRepl_SendToChrome() range
   exe "wincmd w"
 endfunction
 
+command -range=% SendToChrome  <line1>,<line2>call ChromeRepl_SendToChrome()

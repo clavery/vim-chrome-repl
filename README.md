@@ -26,8 +26,8 @@ $ npm rebuild
 ...Chrome.app --args --remote-debugger-port=9222
 ```
 
-Visually select javascript and run `:call ChromeRepl_SendToChrome()` or map to a
-keystroke.
+Run `:SendToChrome` or map this command to a keystroke. This can be used with a
+visual selection or the in normal mode (which sends the entire buffer).
 
 ## TODO
 
